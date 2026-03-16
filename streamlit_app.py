@@ -35,11 +35,11 @@ ingredients_list = st.multiselect(
     , my_dataframe
     , max_selections= 5
 )
-st.write(ingredients_list)
+#st.write(ingredients_list)
 st.text(ingredients_list)
 
 if ingredients_list:
-    st.write(ingredients_list)
+    #st.write(ingredients_list)
     st.text(ingredients_list)
 
     ingredients_string = ''
