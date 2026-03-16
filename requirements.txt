@@ -1,12 +1,3 @@
 # requirements.txt
 snowflake-snowpark-python
 streamlit
-
-[connections.snowflake]
-user = "NC"
-password = "Folic snowiness doily1!"
-account = "QXB11631" 
-warehouse = "COMPUTE_WH"
-database = "SMOOTHIES"
-schema = "PUBLIC"
-client_session_keep_alive = true
